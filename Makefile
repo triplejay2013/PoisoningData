@@ -44,13 +44,15 @@ poison: $(PYTHON)
 		--dataset CIFAR10 \
 		--recipe gradient-matching \
 		--eps 1 \
-		--budget 0.001 \
+		--budget 0.01 \
 		--pbatch 256 \
 		--lmdb_path lmdb_datasets \
 		--name simple \
 		--modelsave_path ../models \
 		--data_path ../data \
-		--save limited
+		--save limited \
+		--poison_path ../poisons \
+		--poisonkey 9-6-11
 
 test-gan: $(PYTHON)
 	DEBUG=true PYTHONPATH=src $(PYTHON) src/poison_detector/models/gan.py
