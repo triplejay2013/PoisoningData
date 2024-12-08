@@ -1,5 +1,5 @@
+cifar10/
 mixed_data/
-data/
 *.npy
 *.zip
 *.png
