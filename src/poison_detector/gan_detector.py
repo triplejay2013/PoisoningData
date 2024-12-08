@@ -38,7 +38,8 @@ from poison_detector.graph import (
     baseline_most_common_class,
     plot_roc_curve,
     plot_confusion_matrix,
-    evaluate_model
+    evaluate_model,
+    plot_training_curves
 )
 
 # Lists to store loss and accuracy during training
@@ -55,10 +56,10 @@ print(f"Using device: {device}")
 # Hyperparameters
 latent_dim = 100  # Size of z latent vector (i.e., size of generator input)
 channels_img = 3  # CIFAR-10 images are RGB
-features_g = 64 if not DEBUG else 32  # Starting feature size for generator
-features_d = 64 if not DEBUG else 16  # Starting feature size for discriminator
-batch_size = 32 if not DEBUG else 8  # Number of images in each mini-batch during training
-epochs = 100 if not DEBUG else 1  # Total number of epochs to train
+features_g = 128 if not DEBUG else 16  # Starting feature size for generator
+features_d = 64 if not DEBUG else 8  # Starting feature size for discriminator
+batch_size = 64 if not DEBUG else 4  # Number of images in each mini-batch during training
+epochs = 25 if not DEBUG else 1  # Total number of epochs to train
 checkpoint_dir = 'checkpoints'  # Directory to store model checkpoints
 model_path = 'gan_model.pth'  # Path to save final model
 
@@ -68,6 +69,14 @@ transform = transforms.Compose([
     transforms.ToTensor(),         # Convert PIL Image to tensor
     transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))  # Normalize to [-1, 1] for better training stability
 ])
+
+
+def weights_init(m):
+    if isinstance(m, nn.Conv2d) or isinstance(m, nn.ConvTranspose2d):
+        nn.init.xavier_uniform_(m.weight)
+    elif isinstance(m, nn.BatchNorm2d):
+        nn.init.normal_(m.weight, 1.0, 0.02)
+        nn.init.constant_(m.bias, 0)
 
 
 class CIFAR10LabeledDataset(Dataset):
@@ -156,7 +165,8 @@ class Generator(nn.Module):
 
             # Final  Layer from 16x16 to 32x32
             nn.ConvTranspose2d(features_g // 4, channels_img, kernel_size=4, stride=2, padding=1),
-            nn.Tanh()
+            # nn.Tanh()
+            nn.Sigmoid()
         )
 
     def forward(self, x):
@@ -190,6 +200,10 @@ class Discriminator(nn.Module):
     def forward(self, x):
         return self.model(x)
 
+# https://arxiv.org/abs/1611.04076
+def lsgan_loss(predictions, targets):
+    return torch.mean((predictions - targets) ** 2)
+
 # Load dataset for training
 dataset = CIFAR10LabeledDataset(root_dir='mixed_data', transform=transform)
 dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
@@ -198,9 +212,12 @@ dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
 # Initialize models
 generator = Generator(latent_dim, channels_img, features_g).to(device)
 discriminator = Discriminator(channels_img, features_d).to(device)
+generator.apply(weights_init)
+discriminator.apply(weights_init)
 
 # Loss function
-criterion = nn.BCELoss().to(device)
+# criterion = nn.BCELoss().to(device)
+criterion = lsgan_loss
 
 # Optimizers
 opt_g = optim.Adam(generator.parameters(), lr=0.0002, betas=(0.5, 0.999))
