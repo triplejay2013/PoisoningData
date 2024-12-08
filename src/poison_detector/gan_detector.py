@@ -31,7 +31,20 @@ from torch.utils.data import DataLoader, Dataset, SubsetRandomSampler
 from torchvision import transforms
 from PIL import Image
 
-from poison_detector.graph import baseline_one_class_svm, baseline_random, baseline_dummy_classifier, baseline_most_common_class, plot_roc_curve, plot_confusion_matrix, evaluate_model
+from poison_detector.graph import (
+    baseline_one_class_svm,
+    baseline_random,
+    baseline_dummy_classifier,
+    baseline_most_common_class,
+    plot_roc_curve,
+    plot_confusion_matrix,
+    evaluate_model
+)
+
+# Lists to store loss and accuracy during training
+train_losses = []
+val_accuracies = []
+val_aucs = []
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 DEBUG = os.environ.get('DEBUG', False) in ["True", "true", "1"]
@@ -283,6 +296,7 @@ def train(generator, discriminator, opt_g, opt_d, train_loader, val_loader, epoc
     It also evaluates the model on the validation set after each epoch.
     """
     for epoch in range(resume_epoch, epochs):
+        total_train_loss = 0
         for i, (real_imgs, labels) in enumerate(train_loader):
             real_imgs = real_imgs.to(device)
             labels = labels.float().to(device)
@@ -298,7 +312,7 @@ def train(generator, discriminator, opt_g, opt_d, train_loader, val_loader, epoc
             # Fake images
             noise = torch.randn(real_imgs.size(0), latent_dim, device=device)
             fake_imgs = generator(noise)
-            fake_labels = torch.zeros(real_imgs.size(0), 1)
+            fake_labels = torch.zeros(real_imgs.size(0), 1, device=device)
             fake_output = discriminator(fake_imgs.detach())
             d_fake_loss = criterion(fake_output, fake_labels)
 
@@ -315,7 +329,14 @@ def train(generator, discriminator, opt_g, opt_d, train_loader, val_loader, epoc
             g_loss.backward()
             opt_g.step()
 
+            total_train_loss += d_loss.item() + g_loss.item()
+
+        avg_train_loss = total_train_loss / len(train_loader)
+        train_losses.append(avg_train_loss)
+
         val_results = evaluate_model(discriminator, val_loader, [full_labeled_dataset.labels[i] for i in val_indices])
+        val_accuracies.append(val_results['accuracy'])
+        val_aucs.append(val_results['auc'])
         print(f"Epoch [{epoch}/{epochs}] Loss D: {d_loss.item():.4f}, Loss G: {g_loss.item():.4f}, Validation Accuracy: {val_results['accuracy']:.4f}, AUC: {val_results['auc']:.4f}")
 
         # Save checkpoint every epoch for potential resumption
@@ -357,6 +378,7 @@ def export_predictions(model, dataloader, output_file):
     with torch.no_grad():
         predictions = []
         for imgs in dataloader:
+            imgs = imgs.to(device)
             outputs = model(imgs)
             # Thresholding: if probability > 0.5, classify as 'poisoned' (1), else 'clean' (0)
             predicted = (outputs > 0.5).float().squeeze().cpu().numpy()
@@ -377,6 +399,8 @@ if __name__ == "__main__":
     # Training with validation
     if resume_epoch < epochs:
         train(generator, discriminator, opt_g, opt_d, train_loader, val_loader, epochs, resume_epoch)
+        # Plot training and validation scores
+        plot_training_curves(train_losses, val_accuracies, val_aucs)
 
     # Evaluate GAN on test set
     test_true_labels = [full_labeled_dataset.labels[i] for i in test_indices]

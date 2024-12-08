@@ -10,6 +10,41 @@ from sklearn.dummy import DummyClassifier
 DEBUG = os.environ.get('DEBUG', False) in ["True", "true", "1"]
 device = torch.device("cuda" if torch.cuda.is_available() and not DEBUG else "cpu")
 
+
+def plot_training_curves(train_losses, val_accuracies, val_aucs):
+    """Plot training loss and validation accuracy/AUC over epochs.
+
+    Args:
+        train_losses (list): List of average training losses per epoch.
+        val_accuracies (list): List of validation accuracies per epoch.
+        val_aucs (list): List of validation AUCs per epoch.
+    """
+    epochs = range(1, len(train_losses) + 1)
+
+    plt.figure(figsize=(12, 4))
+
+    # Plotting training loss
+    plt.subplot(1, 2, 1)
+    plt.plot(epochs, train_losses, 'b', label='Training loss')
+    plt.title('Training Loss')
+    plt.xlabel('Epochs')
+    plt.ylabel('Loss')
+    plt.legend()
+
+    # Plotting validation metrics
+    plt.subplot(1, 2, 2)
+    plt.plot(epochs, val_accuracies, 'r', label='Validation Accuracy')
+    plt.plot(epochs, val_aucs, 'g', label='Validation AUC')
+    plt.title('Validation Metrics')
+    plt.xlabel('Epochs')
+    plt.ylabel('Score')
+    plt.legend()
+
+    plt.tight_layout()
+    plt.savefig('training_validation_curves.png')
+    plt.close()
+
+
 def evaluate_model(model, dataloader, labels):
     """Evaluate the model's performance.
 
