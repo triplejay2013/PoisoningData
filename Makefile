@@ -26,9 +26,9 @@ clean:
 train: $(PYTHON)
 	@echo "Training Defence..."
 
-test: $(PYTHON)
+gan: $(PYTHON)
 	@echo "Running evaluation..."
-	DEBUG=true PYTHONPATH=src $(PYTHON) src/poison_detector/run.py
+	DEBUG=true PYTHONPATH=src $(PYTHON) src/poison_detector/gan_detector.py
 
 sampler: $(PYTHON)
 	@echo "Running sample of poison/clean data"
@@ -54,13 +54,8 @@ poison: $(PYTHON)
 		--poison_path ../poisons \
 		--poisonkey 9-6-11
 
-test-gan: $(PYTHON)
-	DEBUG=true PYTHONPATH=src $(PYTHON) src/poison_detector/models/gan.py
+cifar10:
+	@echo "Generating CIFAR10 images..."
+	$(PYTHON) src/poison_detector/download_images.py
 
-test-dbscan: $(PYTHON)
-	DEBUG=true PYTHONPATH=src $(PYTHON) src/poison_detector/models/dbscan.py
-
-test-kmeans: $(PYTHON)
-	DEBUG=true PYTHONPATH=src $(PYTHON) src/poison_detector/models/kmeans.py
-
-.PHONY: venv build train test clean poison sampler
+.PHONY: venv build train test clean poison sampler cifar10

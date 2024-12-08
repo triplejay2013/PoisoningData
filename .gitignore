@@ -1,5 +1,9 @@
 cifar10/
 mixed_data/
+unlabeled_data/
+checkpoints/
+*.tar.gz
+*.pth
 *.npy
 *.zip
 *.png

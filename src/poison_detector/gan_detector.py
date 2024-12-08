@@ -18,15 +18,41 @@ Methodology:
 This script includes:
 - Training of the GAN model with checkpointing
 - Utilities for loading models, resuming training, and making predictions on unlabeled data
+- Optional debug mode for low-powered machine testing
+- Baseline comparison, statistical analysis, and visualization of results
 """
 
 import os
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torch.utils.data import DataLoader, Dataset
+import numpy as np
+from torch.utils.data import DataLoader, Dataset, SubsetRandomSampler
 from torchvision import transforms
 from PIL import Image
+
+from poison_detector.graph import baseline_one_class_svm, baseline_random, baseline_dummy_classifier, baseline_most_common_class, plot_roc_curve, plot_confusion_matrix, evaluate_model
+
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+DEBUG = os.environ.get('DEBUG', False) in ["True", "true", "1"]
+
+# Hyperparameters
+latent_dim = 100  # Size of z latent vector (i.e., size of generator input)
+channels_img = 3  # CIFAR-10 images are RGB
+features_g = 64 if not DEBUG else 32  # Starting feature size for generator
+features_d = 64 if not DEBUG else 16  # Starting feature size for discriminator
+batch_size = 32 if not DEBUG else 8  # Number of images in each mini-batch during training
+epochs = 100 if not DEBUG else 1  # Total number of epochs to train
+checkpoint_dir = 'checkpoints'  # Directory to store model checkpoints
+model_path = 'gan_model.pth'  # Path to save final model
+
+# Data transforms
+transform = transforms.Compose([
+    transforms.Resize((32, 32)),  # CIFAR-10 images are 32x32, so resize if needed
+    transforms.ToTensor(),         # Convert PIL Image to tensor
+    transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))  # Normalize to [-1, 1] for better training stability
+])
+
 
 class CIFAR10LabeledDataset(Dataset):
     """Custom dataset to load labeled CIFAR10 images.
@@ -44,12 +70,12 @@ class CIFAR10LabeledDataset(Dataset):
         self.images = []
         self.labels = []
 
-        for label in ['poisoned', 'clean']:
+        for label in ['poison', 'clean']:
             label_dir = os.path.join(root_dir, label)
             for img_name in os.listdir(label_dir):
                 img_path = os.path.join(label_dir, img_name)
                 self.images.append(img_path)
-                self.labels.append(1 if label == 'poisoned' else 0)
+                self.labels.append(1 if label == 'poison' else 0)
 
     def __len__(self):
         return len(self.images)
@@ -102,19 +128,24 @@ class Generator(nn.Module):
             nn.LeakyReLU(0.2)
         )
         self.model = nn.Sequential(
-            nn.ConvTranspose2d(features_g * 4, features_g * 2, kernel_size=4, stride=2, padding=1),
-            nn.BatchNorm2d(features_g * 2),
+            # First upsample from  4x4 to 8x8
+            nn.ConvTranspose2d(features_g, features_g // 2, kernel_size=4, stride=2, padding=1),
+            nn.BatchNorm2d(features_g // 2),
             nn.LeakyReLU(0.2),
-            nn.ConvTranspose2d(features_g * 2, features_g, kernel_size=4, stride=2, padding=1),
-            nn.BatchNorm2d(features_g),
+
+            # From 8x8 to 16x16
+            nn.ConvTranspose2d(features_g // 2, features_g // 4, kernel_size=4, stride=2, padding=1),
+            nn.BatchNorm2d(features_g // 4),
             nn.LeakyReLU(0.2),
-            nn.ConvTranspose2d(features_g, channels_img, kernel_size=4, stride=2, padding=1),
+
+            # Final  Layer from 16x16 to 32x32
+            nn.ConvTranspose2d(features_g // 4, channels_img, kernel_size=4, stride=2, padding=1),
             nn.Tanh()
         )
 
     def forward(self, x):
         x = self.initial(x)
-        x = x.view(x.shape[0], -1, 4, 4)
+        x = x.view(x.shape[0], features_g, 4, 4)
         return self.model(x)
 
 class Discriminator(nn.Module):
@@ -143,25 +174,8 @@ class Discriminator(nn.Module):
     def forward(self, x):
         return self.model(x)
 
-# Hyperparameters
-latent_dim = 100  # Size of z latent vector (i.e., size of generator input)
-channels_img = 3  # CIFAR-10 images are RGB
-features_g = 64  # Starting feature size for generator
-features_d = 64  # Starting feature size for discriminator
-batch_size = 32  # Number of images in each mini-batch during training
-epochs = 100  # Total number of epochs to train
-checkpoint_dir = 'checkpoints'  # Directory to store model checkpoints
-model_path = 'gan_model.pth'  # Path to save final model
-
-# Data transforms
-transform = transforms.Compose([
-    transforms.Resize((32, 32)),  # CIFAR-10 images are 32x32, so resize if needed
-    transforms.ToTensor(),         # Convert PIL Image to tensor
-    transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))  # Normalize to [-1, 1] for better training stability
-])
-
 # Load dataset for training
-dataset = CIFAR10LabeledDataset(root_dir='data', transform=transform)
+dataset = CIFAR10LabeledDataset(root_dir='mixed_data', transform=transform)
 dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
 # Shuffle is set to True for training to ensure the model sees a variety of data, reducing overfitting
 
@@ -209,6 +223,8 @@ def load_checkpoint(generator, discriminator, opt_g, opt_d):
     Returns:
         int: The epoch to resume from
     """
+    if not os.path.exists(checkpoint_dir):
+        os.makedirs(checkpoint_dir)
     checkpoints = [f for f in os.listdir(checkpoint_dir) if f.startswith('checkpoint_epoch')]
     if not checkpoints:
         return 0
@@ -224,7 +240,30 @@ def load_checkpoint(generator, discriminator, opt_g, opt_d):
 
     return checkpoint['epoch'] + 1
 
-def train(generator, discriminator, opt_g, opt_d, dataloader, epochs, resume_epoch=0):
+
+full_labeled_dataset = CIFAR10LabeledDataset(root_dir='mixed_data', transform=transform)
+dataset_size = len(full_labeled_dataset)
+indices = list(range(dataset_size))
+
+# Split the dataset into train, validation, and test sets
+split = int(np.floor(0.8 * dataset_size))  # 80% for training
+val_split = int(np.floor(0.1 * dataset_size))  # 10% for validation
+test_split = dataset_size - split - val_split  # Remaining 10% for testing
+
+np.random.shuffle(indices)
+train_indices, val_indices, test_indices = indices[:split], indices[split:split + val_split], indices[split + val_split:]
+
+train_sampler = SubsetRandomSampler(train_indices)
+val_sampler = SubsetRandomSampler(val_indices)
+test_sampler = SubsetRandomSampler(test_indices)
+
+# DataLoaders
+train_loader = DataLoader(full_labeled_dataset, batch_size=batch_size, sampler=train_sampler)
+val_loader = DataLoader(full_labeled_dataset, batch_size=batch_size, sampler=val_sampler)
+test_loader = DataLoader(full_labeled_dataset, batch_size=batch_size, sampler=test_sampler)
+
+
+def train(generator, discriminator, opt_g, opt_d, train_loader, val_loader, epochs, resume_epoch=0):
     """Train GAN with checkpointing.
 
     Args:
@@ -232,14 +271,16 @@ def train(generator, discriminator, opt_g, opt_d, dataloader, epochs, resume_epo
         discriminator (nn.Module): Discriminator model
         opt_g (optim.Optimizer): Generator optimizer
         opt_d (optim.Optimizer): Discriminator optimizer
-        dataloader (DataLoader): DataLoader for training data
+        train_loader (DataLoader): DataLoader for training data
+        val_loader (DataLoader): DataLoader for validation data
         epochs (int): Number of epochs to train
         resume_epoch (int): Epoch to start from if resuming
 
     This function trains the GAN, saving checkpoints after each epoch to allow for resuming training.
+    It also evaluates the model on the validation set after each epoch.
     """
     for epoch in range(resume_epoch, epochs):
-        for i, (real_imgs, labels) in enumerate(dataloader):
+        for i, (real_imgs, labels) in enumerate(train_loader):
             # Train Discriminator
             opt_d.zero_grad()
 
@@ -268,8 +309,8 @@ def train(generator, discriminator, opt_g, opt_d, dataloader, epochs, resume_epo
             g_loss.backward()
             opt_g.step()
 
-        if epoch % 10 == 0:
-            print(f"Epoch [{epoch}/{epochs}] Loss D: {d_loss.item():.4f}, Loss G: {g_loss.item():.4f}")
+        val_results = evaluate_model(discriminator, val_loader, [full_labeled_dataset.labels[i] for i in val_indicies])
+        print(f"Epoch [{epoch}/{epochs}] Loss D: {d_loss.item():.4f}, Loss G: {g_loss.item():.4f}, Validation Accuracy: {val_results['accuracy']:.4f}, AUC: {val_results['auc']:.4f}")
 
         # Save checkpoint every epoch for potential resumption
         save_checkpoint(epoch, generator, discriminator, opt_g, opt_d)
@@ -319,24 +360,59 @@ def export_predictions(model, dataloader, output_file):
         for pred in predictions:
             f.write(f"{'bad' if int(pred) == 1 else 'good'}\n")
 
-# Main execution
 if __name__ == "__main__":
     # Check for existing model or resume from checkpoint
     resume_epoch = load_checkpoint(generator, discriminator, opt_g, opt_d)
     if resume_epoch == 0:
-        generator, discriminator = load_model(generator, discriminator)
+        generator, discriminator = load_model()
     else:
         print(f"Resuming training from epoch {resume_epoch}")
 
-    # Training
+    # Training with validation
     if resume_epoch < epochs:
-        train(generator, discriminator, opt_g, opt_d, dataloader, epochs, resume_epoch)
+        train(generator, discriminator, opt_g, opt_d, train_loader, val_loader, epochs, resume_epoch)
 
-    # Predictions
+    # Evaluate GAN on test set
+    test_true_labels = [full_labeled_dataset.labels[i] for i in test_indices]
+    gan_results = evaluate_model(discriminator, test_loader, test_true_labels)
+
+    # Baselines using test set
+    X_train = np.array([full_labeled_dataset[i][0].numpy().flatten() for i in train_indices])
+    y_train = np.array([full_labeled_dataset.labels[i] for i in train_indices])
+    X_test = np.array([full_labeled_dataset[i][0].numpy().flatten() for i in test_indices])
+    y_test = np.array(test_true_labels)
+
+    svm_results = baseline_one_class_svm(X_train, y_train, X_test, y_test)
+    most_common_results = baseline_most_common_class(y_test)
+    random_results = baseline_random(y_test)
+    dummy_results = baseline_dummy_classifier(y_test)
+
+    # Generate plots using test set results
+    plot_roc_curve(gan_results['fpr'], gan_results['tpr'], gan_results['auc'], title="GAN ROC Curve")
+    plot_confusion_matrix(gan_results['confusion_matrix'], classes=['Clean', 'Poisoned'], title="GAN Confusion Matrix")
+
+    plot_roc_curve(svm_results['fpr'], svm_results['tpr'], svm_results['auc'], title="One-Class SVM ROC Curve")
+    plot_confusion_matrix(svm_results['confusion_matrix'], classes=['Clean', 'Poisoned'], title="One-Class SVM Confusion Matrix")
+
+    plot_roc_curve(most_common_results['fpr'], most_common_results['tpr'], most_common_results['auc'], title="Most Common Class ROC Curve")
+    plot_confusion_matrix(most_common_results['confusion_matrix'], classes=['Clean', 'Poisoned'], title="Most Common Class Confusion Matrix")
+
+    plot_roc_curve(random_results['fpr'], random_results['tpr'], random_results['auc'], title="Random Baseline ROC Curve")
+    plot_confusion_matrix(random_results['confusion_matrix'], classes=['Clean', 'Poisoned'], title="Random Baseline Confusion Matrix")
+
+    plot_roc_curve(dummy_results['fpr'], dummy_results['tpr'], dummy_results['auc'], title="Stratified Dummy ROC Curve")
+    plot_confusion_matrix(dummy_results['confusion_matrix'], classes=['Clean', 'Poisoned'], title="Stratified Dummy Confusion Matrix")
+
+    # Print results for all models
+    print(f"GAN Accuracy: {gan_results['accuracy']:.4f}, AUC: {gan_results['auc']:.4f}")
+    print(f"One-Class SVM Accuracy: {svm_results['accuracy']:.4f}, AUC: {svm_results['auc']:.4f}")
+    print(f"Most Common Class Accuracy: {most_common_results['accuracy']:.4f}, AUC: {most_common_results['auc']:.4f}")
+    print(f"Random Baseline Accuracy: {random_results['accuracy']:.4f}, AUC: {random_results['auc']:.4f}")
+    print(f"Stratified Dummy Accuracy: {dummy_results['accuracy']:.4f}, AUC: {dummy_results['auc']:.4f}")
+
+    # For unlabeled data, we only predict and output to 'labels.txt'
     unlabeled_dataset = CIFAR10UnlabeledDataset(root_dir='unlabeled_data', transform=transform)
     unlabeled_dataloader = DataLoader(unlabeled_dataset, batch_size=batch_size, shuffle=False)
-    # Shuffle is set to False for prediction to maintain order of images
-
     export_predictions(discriminator, unlabeled_dataloader, 'labels.txt')
 
-    print("Training completed and predictions exported to labels.txt")
+    print("Training completed, predictions exported, and evaluation metrics calculated.")
