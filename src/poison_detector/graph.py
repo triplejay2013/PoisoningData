@@ -1,3 +1,4 @@
+import os
 import torch
 import numpy as np
 import matplotlib.pyplot as plt
@@ -5,6 +6,9 @@ from sklearn.metrics import accuracy_score, confusion_matrix, roc_curve, auc
 from sklearn.svm import OneClassSVM
 from sklearn.dummy import DummyClassifier
 
+
+DEBUG = os.environ.get('DEBUG', False) in ["True", "true", "1"]
+device = torch.device("cuda" if torch.cuda.is_available() and not DEBUG else "cpu")
 
 def evaluate_model(model, dataloader, labels):
     """Evaluate the model's performance.
@@ -22,6 +26,7 @@ def evaluate_model(model, dataloader, labels):
         all_preds = []
         # Ignore labels
         for imgs, _ in dataloader:
+            imgs = imgs.to(device)
             outputs = model(imgs)
             # Thresholding: if probability > 0.5, classify as 'poisoned' (1), else 'clean' (0)
             predicted = (outputs > 0.5).float().squeeze().cpu().numpy()

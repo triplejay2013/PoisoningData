@@ -36,6 +36,9 @@ from poison_detector.graph import baseline_one_class_svm, baseline_random, basel
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 DEBUG = os.environ.get('DEBUG', False) in ["True", "true", "1"]
 
+device = torch.device("cuda" if torch.cuda.is_available() and not DEBUG else "cpu")
+print(f"Using device: {device}")
+
 # Hyperparameters
 latent_dim = 100  # Size of z latent vector (i.e., size of generator input)
 channels_img = 3  # CIFAR-10 images are RGB
@@ -180,11 +183,11 @@ dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
 # Shuffle is set to True for training to ensure the model sees a variety of data, reducing overfitting
 
 # Initialize models
-generator = Generator(latent_dim, channels_img, features_g)
-discriminator = Discriminator(channels_img, features_d)
+generator = Generator(latent_dim, channels_img, features_g).to(device)
+discriminator = Discriminator(channels_img, features_d).to(device)
 
 # Loss function
-criterion = nn.BCELoss()
+criterion = nn.BCELoss().to(device)
 
 # Optimizers
 opt_g = optim.Adam(generator.parameters(), lr=0.0002, betas=(0.5, 0.999))
@@ -281,6 +284,9 @@ def train(generator, discriminator, opt_g, opt_d, train_loader, val_loader, epoc
     """
     for epoch in range(resume_epoch, epochs):
         for i, (real_imgs, labels) in enumerate(train_loader):
+            real_imgs = real_imgs.to(device)
+            labels = labels.float().to(device)
+
             # Train Discriminator
             opt_d.zero_grad()
 
@@ -290,7 +296,7 @@ def train(generator, discriminator, opt_g, opt_d, train_loader, val_loader, epoc
             d_real_loss = criterion(real_output, real_labels)
 
             # Fake images
-            noise = torch.randn(real_imgs.size(0), latent_dim)
+            noise = torch.randn(real_imgs.size(0), latent_dim, device=device)
             fake_imgs = generator(noise)
             fake_labels = torch.zeros(real_imgs.size(0), 1)
             fake_output = discriminator(fake_imgs.detach())
@@ -302,14 +308,14 @@ def train(generator, discriminator, opt_g, opt_d, train_loader, val_loader, epoc
 
             # Train Generator
             opt_g.zero_grad()
-            noise = torch.randn(real_imgs.size(0), latent_dim)
+            noise = torch.randn(real_imgs.size(0), latent_dim, device=device)
             fake_imgs = generator(noise)
             g_output = discriminator(fake_imgs)
-            g_loss = criterion(g_output, torch.ones(real_imgs.size(0), 1))
+            g_loss = criterion(g_output, torch.ones(real_imgs.size(0), 1, device=device))
             g_loss.backward()
             opt_g.step()
 
-        val_results = evaluate_model(discriminator, val_loader, [full_labeled_dataset.labels[i] for i in val_indicies])
+        val_results = evaluate_model(discriminator, val_loader, [full_labeled_dataset.labels[i] for i in val_indices])
         print(f"Epoch [{epoch}/{epochs}] Loss D: {d_loss.item():.4f}, Loss G: {g_loss.item():.4f}, Validation Accuracy: {val_results['accuracy']:.4f}, AUC: {val_results['auc']:.4f}")
 
         # Save checkpoint every epoch for potential resumption
@@ -364,7 +370,7 @@ if __name__ == "__main__":
     # Check for existing model or resume from checkpoint
     resume_epoch = load_checkpoint(generator, discriminator, opt_g, opt_d)
     if resume_epoch == 0:
-        generator, discriminator = load_model()
+        generator, discriminator = load_model(generator, discriminator)
     else:
         print(f"Resuming training from epoch {resume_epoch}")
 
