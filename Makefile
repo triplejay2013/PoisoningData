@@ -26,9 +26,13 @@ clean:
 train: $(PYTHON)
 	@echo "Training Defence..."
 
-gan: $(PYTHON)
+gan-test: $(PYTHON)
 	@echo "Running evaluation..."
 	DEBUG=true PYTHONPATH=src $(PYTHON) src/poison_detector/gan_detector.py
+
+gan: $(PYTHON)
+	@echo "Running evaluation..."
+	CUDA_VISIBLE_DEVICES=2 DEBUG=false PYTHONPATH=src $(PYTHON) src/poison_detector/gan_detector.py
 
 sampler: $(PYTHON)
 	@echo "Running sample of poison/clean data"

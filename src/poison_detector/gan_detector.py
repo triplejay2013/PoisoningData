@@ -26,6 +26,7 @@ import os
 import torch
 import torch.nn as nn
 import torch.optim as optim
+from torch.optim.lr_scheduler import ReduceLROnPlateau
 import numpy as np
 from torch.utils.data import DataLoader, Dataset, SubsetRandomSampler
 from torchvision import transforms
@@ -56,12 +57,16 @@ print(f"Using device: {device}")
 # Hyperparameters
 latent_dim = 100  # Size of z latent vector (i.e., size of generator input)
 channels_img = 3  # CIFAR-10 images are RGB
-features_g = 128 if not DEBUG else 16  # Starting feature size for generator
-features_d = 64 if not DEBUG else 8  # Starting feature size for discriminator
+features_g = 256  # Starting feature size for generator
+features_d = 64  # Starting feature size for discriminator
 batch_size = 64 if not DEBUG else 4  # Number of images in each mini-batch during training
-epochs = 25 if not DEBUG else 1  # Total number of epochs to train
+epochs = 200 if not DEBUG else 1  # Total number of epochs to train
+lr = 2e-5
 checkpoint_dir = 'checkpoints'  # Directory to store model checkpoints
 model_path = 'gan_model.pth'  # Path to save final model
+patience = 20  # Number of epochs with no improvement after which training will end
+best_auc = 0
+best_epoch = 0
 
 # Data transforms
 transform = transforms.Compose([
@@ -138,6 +143,7 @@ class CIFAR10UnlabeledDataset(Dataset):
             image = self.transform(image)
         return image
 
+# https://www.geeksforgeeks.org/generative-adversarial-network-gan/
 class Generator(nn.Module):
     """Generator for producing images based on noise input.
 
@@ -148,31 +154,25 @@ class Generator(nn.Module):
     """
     def __init__(self, latent_dim, channels_img, features_g):
         super(Generator, self).__init__()
-        self.initial = nn.Sequential(
-            nn.Linear(latent_dim, features_g * 4 * 4),
-            nn.LeakyReLU(0.2)
-        )
         self.model = nn.Sequential(
-            # First upsample from  4x4 to 8x8
-            nn.ConvTranspose2d(features_g, features_g // 2, kernel_size=4, stride=2, padding=1),
-            nn.BatchNorm2d(features_g // 2),
-            nn.LeakyReLU(0.2),
-
-            # From 8x8 to 16x16
-            nn.ConvTranspose2d(features_g // 2, features_g // 4, kernel_size=4, stride=2, padding=1),
-            nn.BatchNorm2d(features_g // 4),
-            nn.LeakyReLU(0.2),
-
-            # Final  Layer from 16x16 to 32x32
-            nn.ConvTranspose2d(features_g // 4, channels_img, kernel_size=4, stride=2, padding=1),
-            # nn.Tanh()
-            nn.Sigmoid()
+            nn.Linear(latent_dim, 128 * 8 * 8),
+            nn.ReLU(),
+            nn.Unflatten(1, (128, 8, 8)),
+            nn.Upsample(scale_factor=2),
+            nn.Conv2d(128, 128, kernel_size=3, padding=1),
+            nn.BatchNorm2d(128, momentum=0.78),
+            nn.ReLU(),
+            nn.Upsample(scale_factor=2),
+            nn.Conv2d(128, 64, kernel_size=3, padding=1),
+            nn.BatchNorm2d(64, momentum=0.78),
+            nn.ReLU(),
+            nn.Conv2d(64, 3, kernel_size=3, padding=1),
+            nn.Tanh()
         )
 
     def forward(self, x):
-        x = self.initial(x)
-        x = x.view(x.shape[0], features_g, 4, 4)
-        return self.model(x)
+        img = self.model(x)
+        return img
 
 class Discriminator(nn.Module):
     """Discriminator for distinguishing between real and generated images.
@@ -184,21 +184,30 @@ class Discriminator(nn.Module):
     def __init__(self, channels_img, features_d):
         super(Discriminator, self).__init__()
         self.model = nn.Sequential(
-            nn.Conv2d(channels_img, features_d, kernel_size=4, stride=2, padding=1),
+            nn.Conv2d(3, 32, kernel_size=3, stride=2, padding=1),
             nn.LeakyReLU(0.2),
-            nn.Conv2d(features_d, features_d * 2, kernel_size=4, stride=2, padding=1),
-            nn.BatchNorm2d(features_d * 2),
+            nn.Dropout(0.25),
+            nn.Conv2d(32, 64, kernel_size=3, stride=2, padding=1),
+            nn.ZeroPad2d((0, 1, 0, 1)),
+            nn.BatchNorm2d(64, momentum=0.82),
+            nn.LeakyReLU(0.25),
+            nn.Dropout(0.25),
+            nn.Conv2d(64, 128, kernel_size=3, stride=2, padding=1),
+            nn.BatchNorm2d(128, momentum=0.82),
             nn.LeakyReLU(0.2),
-            nn.Conv2d(features_d * 2, features_d * 4, kernel_size=4, stride=2, padding=1),
-            nn.BatchNorm2d(features_d * 4),
-            nn.LeakyReLU(0.2),
+            nn.Dropout(0.25),
+            nn.Conv2d(128, 256, kernel_size=3, stride=1, padding=1),
+            nn.BatchNorm2d(256, momentum=0.8),
+            nn.LeakyReLU(0.25),
+            nn.Dropout(0.25),
             nn.Flatten(),
-            nn.Linear(features_d * 4 * 4 * 4, 1),
+            nn.Linear(256 * 5 * 5, 1),
             nn.Sigmoid()
         )
 
-    def forward(self, x):
-        return self.model(x)
+    def forward(self, img):
+        validity = self.model(img)
+        return validity
 
 # https://arxiv.org/abs/1611.04076
 def lsgan_loss(predictions, targets):
@@ -220,10 +229,14 @@ discriminator.apply(weights_init)
 criterion = lsgan_loss
 
 # Optimizers
-opt_g = optim.Adam(generator.parameters(), lr=0.0002, betas=(0.5, 0.999))
-opt_d = optim.Adam(discriminator.parameters(), lr=0.0002, betas=(0.5, 0.999))
+opt_g = optim.Adam(generator.parameters(), lr=lr, betas=(0.5, 0.999))
+opt_d = optim.Adam(discriminator.parameters(), lr=lr, betas=(0.5, 0.999))
 
-def save_checkpoint(epoch, generator, discriminator, opt_g, opt_d):
+# Learning Rate Scheduler
+scheduler = ReduceLROnPlateau(opt_d, mode='max', factor=0.1, patience=10, verbose=True)
+
+
+def save_checkpoint(epoch, generator, discriminator, opt_g, opt_d, best=False):
     """Save checkpoint to resume training later.
 
     Args:
@@ -242,7 +255,7 @@ def save_checkpoint(epoch, generator, discriminator, opt_g, opt_d):
         'discriminator_state_dict': discriminator.state_dict(),
         'opt_g_state_dict': opt_g.state_dict(),
         'opt_d_state_dict': opt_d.state_dict(),
-    }, os.path.join(checkpoint_dir, f'checkpoint_epoch_{epoch}.pth'))
+    }, os.path.join(checkpoint_dir, 'best_model.pth' if best else f'checkpoint_epoch_{epoch}.pth'))
 
 def load_checkpoint(generator, discriminator, opt_g, opt_d):
     """Load checkpoint to resume training.
@@ -312,6 +325,8 @@ def train(generator, discriminator, opt_g, opt_d, train_loader, val_loader, epoc
     This function trains the GAN, saving checkpoints after each epoch to allow for resuming training.
     It also evaluates the model on the validation set after each epoch.
     """
+    global best_auc, best_epoch
+
     for epoch in range(resume_epoch, epochs):
         total_train_loss = 0
         for i, (real_imgs, labels) in enumerate(train_loader):
@@ -355,6 +370,18 @@ def train(generator, discriminator, opt_g, opt_d, train_loader, val_loader, epoc
         val_accuracies.append(val_results['accuracy'])
         val_aucs.append(val_results['auc'])
         print(f"Epoch [{epoch}/{epochs}] Loss D: {d_loss.item():.4f}, Loss G: {g_loss.item():.4f}, Validation Accuracy: {val_results['accuracy']:.4f}, AUC: {val_results['auc']:.4f}")
+
+        # Learning Rate Scheduling
+        scheduler.step(val_results['auc'])
+
+        # Early Stopping
+        if val_results['auc'] > best_auc:
+            best_auc = val_results['auc']
+            best_epoch = epoch
+            save_checkpoint(epoch, generator, discriminator, opt_g, opt_d, best=True)
+        elif epoch - best_epoch > patience:
+            print(f"Early stopping at epoch {epoch}")
+            break
 
         # Save checkpoint every epoch for potential resumption
         save_checkpoint(epoch, generator, discriminator, opt_g, opt_d)
@@ -418,6 +445,10 @@ if __name__ == "__main__":
         train(generator, discriminator, opt_g, opt_d, train_loader, val_loader, epochs, resume_epoch)
         # Plot training and validation scores
         plot_training_curves(train_losses, val_accuracies, val_aucs)
+
+    best_checkpoint = torch.load(os.path.join(checkpoint_dir, 'best_model.pth'))
+    discriminator.load_state_dict(best_checkpoint['discriminator_state_dict'])
+
 
     # Evaluate GAN on test set
     test_true_labels = [full_labeled_dataset.labels[i] for i in test_indices]
