@@ -225,8 +225,8 @@ generator.apply(weights_init)
 discriminator.apply(weights_init)
 
 # Loss function
-# criterion = nn.BCELoss().to(device)
-criterion = lsgan_loss
+criterion = nn.BCELoss().to(device)
+# criterion = lsgan_loss
 
 # Optimizers
 opt_g = optim.Adam(generator.parameters(), lr=lr, betas=(0.5, 0.999))
@@ -327,40 +327,51 @@ def train(generator, discriminator, opt_g, opt_d, train_loader, val_loader, epoc
     """
     global best_auc, best_epoch
 
-    for epoch in range(resume_epoch, epochs):
+    for epoch in range(epochs):
         total_train_loss = 0
-        for i, (real_imgs, labels) in enumerate(train_loader):
-            real_imgs = real_imgs.to(device)
-            labels = labels.float().to(device)
+        for i, batch in enumerate(train_loader):
+            # Convert to tensor
+            real_images = batch[0].to(device)
+            # Adversarial ground truths
+            valid = torch.ones(real_images.size(0), 1, device=device)
+            fake = torch.zeros(real_images.size(0), 1, device=device)
 
+            # Prep input for GPU
+            real_images = real_images.to(device)
+
+            # -------------------
             # Train Discriminator
+            # -------------------
             opt_d.zero_grad()
+            # Sample noise as generator input
+            z = torch.randn(real_images.size(0), latent_dim, device=device)
+            # Generate a batch of images
+            fake_images = generator(z)
 
-            # Real images
-            real_labels = labels.float().view(-1, 1)
-            real_output = discriminator(real_imgs)
-            d_real_loss = criterion(real_output, real_labels)
+            # Measure discriminator's ability to classify fake vs real
+            real_loss = criterion(discriminator(real_images), valid)
+            fake_loss = criterion(discriminator(fake_images.detach()), fake)
 
-            # Fake images
-            noise = torch.randn(real_imgs.size(0), latent_dim, device=device)
-            fake_imgs = generator(noise)
-            fake_labels = torch.zeros(real_imgs.size(0), 1, device=device)
-            fake_output = discriminator(fake_imgs.detach())
-            d_fake_loss = criterion(fake_output, fake_labels)
+            d_loss = (real_loss + fake_loss) / 2
 
-            d_loss = d_real_loss + d_fake_loss
             d_loss.backward()
             opt_d.step()
 
+            # ---------------
             # Train Generator
+            # ---------------
             opt_g.zero_grad()
-            noise = torch.randn(real_imgs.size(0), latent_dim, device=device)
-            fake_imgs = generator(noise)
-            g_output = discriminator(fake_imgs)
-            g_loss = criterion(g_output, torch.ones(real_imgs.size(0), 1, device=device))
+            # Generate a batch of images
+            gen_images = generator(z)
+            # Adversarial Loss
+            g_loss = criterion(discriminator(gen_images), valid)
+            # Backwards pass and optimize
             g_loss.backward()
             opt_g.step()
 
+            # -------------------
+            # Progress Monitoring
+            # -------------------
             total_train_loss += d_loss.item() + g_loss.item()
 
         avg_train_loss = total_train_loss / len(train_loader)
@@ -448,7 +459,6 @@ if __name__ == "__main__":
 
     best_checkpoint = torch.load(os.path.join(checkpoint_dir, 'best_model.pth'))
     discriminator.load_state_dict(best_checkpoint['discriminator_state_dict'])
-
 
     # Evaluate GAN on test set
     test_true_labels = [full_labeled_dataset.labels[i] for i in test_indices]

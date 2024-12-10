@@ -1,0 +1,6 @@
+GAN Accuracy: 0.5000, AUC: 0.5271
+One-Class SVM Accuracy: 0.5600, AUC: 0.5428
+Most Common Class Accuracy: 0.5300, AUC: 0.5000
+Random Baseline Accuracy: 0.5400, AUC: 0.5395
+Stratified Dummy Accuracy: 0.5200, AUC: 0.5171
+Training completed, predictions exported, and evaluation metrics calculated.

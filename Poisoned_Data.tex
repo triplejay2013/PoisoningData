@@ -1,0 +1,245 @@
+\documentclass[14]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[]{ACL2023}
+
+\title{Poisoned Data Detection via Generative Adversarial Networks}
+\author{Justin Johnson}
+\date{November 2024}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper explores the application of Generative Adversarial Networks (GANs) in detecting poisoned data within machine learning models. I investigate the use of GANs to generate poisoned samples and assess their impact on anomaly detection. By incorporating poisoned images into the generator-discriminator framework, the study aims to strengthen the discriminator's ability to identify outliers and improve the detection of adversarially crafted data. The experiments also include comparisons with traditional approaches such as Support Vector Machines (SVM), Least Squares GAN (LSGAN), and various baseline models.
+\end{abstract}
+
+\section{Introduction}
+
+The detection of poisoned data in machine learning systems is a crucial task, especially in applications where adversarial inputs can degrade model performance. Data poisoning attacks—where adversaries subtly manipulate training data to deceive machine learning models—have become increasingly sophisticated. As such, the ability to effectively identify and mitigate these attacks is paramount to maintaining the integrity of machine learning systems. In this paper, I investigate how Generative Adversarial Networks (GANs) can be leveraged to identify poisoned data and enhance the robustness of models against such attacks.
+
+The main idea behind using GANs in this context is that they can be trained to distinguish between clean and poisoned data by learning the distribution of normal data. By introducing poisoned data into the training process, I aim to enhance the model’s ability to detect adversarial changes. I explore different techniques, including traditional methods such as one-class Support Vector Machines (SVMs) and Least Squares GANs (LSGANs), to evaluate their effectiveness in detecting poisoned data. Through this investigation, I aim to improve the detection capabilities of machine learning models and develop more robust systems against adversarial data manipulation.
+
+\section{Background \& Related Works}
+
+Generative Adversarial Networks (GANs) were introduced by \citet{goodfell_gan} as a framework in which two neural networks—the generator and the discriminator—compete in a game-like adversarial setting. The generator’s objective is to produce data that closely resembles real data, while the discriminator’s goal is to differentiate between real and generated data. GANs have proven successful in a variety of tasks, such as image generation, data augmentation, and style transfer. More recently, they have been employed for anomaly detection, where the discriminator learns to model the distribution of normal data and detects anomalies by evaluating how well a sample fits this distribution.
+
+In the context of anomaly detection, GANs can be applied to identify poisoned data. The idea is that the discriminator, trained on clean data, would struggle to classify poisoned samples as part of the learned distribution. Several studies have demonstrated the effectiveness of GANs for anomaly detection tasks. For example, \citet{schlegl2017unsupervised} proposed an unsupervised anomaly detection method using GANs, where the discriminator is trained to detect outliers in medical image datasets. The adversarial learning process naturally lends itself to detecting data that deviates from the norm, making it a promising approach for detecting poisoned data in machine learning systems.
+
+\subsection{Loss Functions}
+
+In GANs, the loss functions for both the discriminator and generator play a crucial role in guiding the model’s learning process. Two commonly used loss functions are Binary Cross-Entropy (BCE) loss and Least Squares GAN (LSGAN) loss. Below, I describe these loss functions and their relevance to this study.
+
+\paragraph{Binary Cross-Entropy (BCE) Loss}
+
+In the standard GAN formulation, the discriminator \( D \) outputs a probability that an input sample \( x \) is real or fake. The binary cross-entropy loss is used to train both the discriminator and the generator. The discriminator’s objective is to maximize the likelihood of correctly classifying real and fake samples, while the generator tries to minimize the likelihood of the discriminator distinguishing between real and generated samples.
+
+The BCE loss is popular due to its simplicity and effectiveness in various tasks. However, it can lead to unstable training in some cases, such as mode collapse, where the generator produces limited variations of the data. Despite these issues, BCE loss remains a widely used loss function in GANs for tasks involving classification or detection.
+
+\paragraph{Least Squares GAN (LSGAN) Loss}
+
+In contrast to BCE loss, Least Squares GAN (LSGAN) uses a least-squares loss function for training the discriminator. Instead of classifying data as real or fake, the discriminator outputs a real-valued score. The target labels for the discriminator are continuous values: real samples are labeled as 1, and fake samples are labeled as 0. The key advantage of LSGAN over BCE is that it helps stabilize the training process by providing smoother gradients. This reduces issues like mode collapse that can occur when using BCE loss, making LSGAN a more robust option in some scenarios.
+
+LSGAN has gained popularity in recent years due to its ability to provide better training stability and generate higher-quality outputs. In this study, I experiment with LSGAN loss to assess whether it improves the performance of the GAN in detecting poisoned data.
+
+\section{Poisoning Data}
+
+The challenge of detecting poisoned data arises from the fact that adversarially manipulated samples are often subtle and designed to blend in with the rest of the data. To investigate the impact of poisoned data on anomaly detection, I used the repository provided by \citet{geiping2024datapoisoning}, which served as the foundation for generating poisoned samples in my experiments. While using this repository was not strictly necessary, it provided a helpful framework for generating poisoned data that I could incorporate into the GAN training process.
+
+In a typical GAN setup, the generator learns to produce data that matches the distribution of normal (clean) data. By introducing poisoned images, I was able to challenge the discriminator with data that deviated from the normal distribution. This allowed me to explore how well the GAN could identify subtle anomalies and improve its performance in detecting poisoned data.
+
+The poisoned images were generated with the goal of fooling the discriminator into classifying them as normal. This adversarial process, in which the generator and discriminator are continuously improving in response to each other, helps refine the discriminator’s ability to detect anomalous patterns. Figure~\ref{fig:poison} shows an example of a poisoned image, while Figure~\ref{fig:clean} provides a comparison with a clean image.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics{imgs/poison.png}
+    \caption{Poisoned example}
+    \label{fig:poison}
+\end{figure}
+
+By incorporating these poisoned images into the generator’s training process, I aimed to strengthen the discriminator’s ability to detect subtle anomalies in the data. This approach leverages the adversarial nature of GANs, where the generator is encouraged to create increasingly difficult samples, and the discriminator becomes better at distinguishing between normal and anomalous data.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics{imgs/clean.png}
+    \caption{Clean example}
+    \label{fig:clean}
+\end{figure}
+
+\section{Data Preprocessing and Augmentation Techniques}
+Data preprocessing and augmentation are crucial steps in the development of machine learning models, especially in the context of detecting poisoned data. Preprocessing techniques ensure that the data is clean, consistent, and formatted in a way that is conducive to learning, while augmentation techniques help to increase the diversity of the training data and improve model robustness.
+
+I sampled some of these approaches, but ultimately abandoned most of them due to time and complexity constraints. I wasn't seeing significant gains, and I was branching out in too many ways to figure out how to get something working.
+
+\subsection{Data Normalization}
+Data normalization is a standard preprocessing step that rescales the features of the data to a common range, usually [0, 1] or [-1, 1]. This is important for many machine learning algorithms, particularly those that rely on distance metrics or gradient-based optimization methods. For instance, pixel values in image data are typically scaled to the range [0, 1] to ensure that the neural network receives inputs that are of comparable scale, preventing one feature from disproportionately influencing the model.
+
+\subsection{Data Cleaning}
+Data cleaning involves identifying and removing noise or errors in the training data. This includes handling missing values, removing duplicates, and correcting inconsistencies in the data. For example, in image datasets, this step may involve filtering out corrupted images or images that are poorly labeled. Proper cleaning is essential for ensuring that the model does not learn from erroneous data, which can distort the training process and negatively impact model performance.
+
+\subsection{Data Augmentation Techniques}
+Data augmentation refers to the process of artificially increasing the size of the training dataset by creating modified versions of the original data. This is particularly beneficial in domains like computer vision, where labeled data is often scarce. Common augmentation techniques include:
+
+\begin{itemize}
+    \item \textbf{Rotation and Flipping:} Randomly rotating or flipping images to create variations and prevent overfitting to specific orientations.
+    \item \textbf{Scaling and Cropping:} Randomly scaling and cropping images to simulate different viewing distances and perspectives.
+    \item \textbf{Color Jittering:} Modifying the color properties of an image, such as brightness, contrast, and saturation, to increase robustness to lighting variations.
+    \item \textbf{Noise Injection:} Adding random noise (e.g., Gaussian noise) to the images to make the model more resilient to noisy or corrupted data.
+\end{itemize}
+
+These techniques help improve the generalization ability of a model by exposing it to a wider variety of input conditions, making it less likely to overfit to specific characteristics of the training data.
+
+\subsection{Adversarial Data Augmentation}
+In the context of poisoned data detection, adversarial data augmentation can be used to simulate poisoning attacks and prepare the model to detect such anomalies. This technique involves creating adversarial examples by introducing small perturbations to the data that cause misclassifications in a model. The model is then trained to distinguish between legitimate data and these adversarially modified examples, which enhances its robustness against both clean and poisoned data.
+
+\subsection{Balancing the Dataset}
+In cases where the dataset is imbalanced, data augmentation can be used to generate more samples for underrepresented classes, thus addressing class imbalance. This is important for ensuring that the model does not become biased toward the majority class, which could negatively impact its ability to detect poisoned data that is underrepresented.
+
+\subsection{Synthetic Data Generation}
+For situations where obtaining real data is difficult or expensive, synthetic data generation can be used to augment the training set. This involves using generative models, such as GANs, to create new data points that resemble the original data. Synthetic data generation can be especially useful when dealing with rare events, such as poisoning attacks, as it allows for the creation of poisoned samples that can be used to train detection models.
+
+\subsection{Handling Imbalanced Data}
+In the context of poisoned data detection, it is important to balance the dataset so that both clean and poisoned samples are equally represented. This can be achieved by under-sampling the clean data or over-sampling the poisoned data, depending on the specific problem. The goal is to ensure that the detection model has enough examples of poisoned data to learn from without overwhelming it with clean samples.
+
+
+\section{Evaluation}
+
+\subsection{Experiment 1: SVM}
+
+Support Vector Machines (SVMs) are a well-established method for binary classification tasks, and they have been applied to anomaly detection in various contexts. In this experiment, I trained an SVM model to detect poisoned data. The SVM’s strength lies in its ability to find the optimal hyperplane that separates classes in high-dimensional spaces, making it an ideal choice for identifying outliers.
+
+\paragraph{Tasks \& Procedures}
+
+I trained a simple SVM classifier on the dataset, adjusting hyperparameters such as the kernel and regularization parameters to improve performance. However, despite these adjustments, the SVM model did not yield significant improvements in performance. I spent considerable time setting up the experiment and creating a pipeline for training and testing the model, but the results were underwhelming. The main challenge in this experiment was ensuring that the pipeline was functional, allowing for reliable input/output and data visualization.
+
+\paragraph{Results}
+
+Figure~\ref{fig:svm_roc} shows the ROC curve for the SVM model. As seen in the figure, the SVM performed poorly in distinguishing between clean and poisoned data, resulting in a ROC curve that indicates weak performance. The model favored the majority class, predicting “clean” most of the time, which led to a biased classification and poor detection of poisoned samples. Despite these shortcomings, this experiment provided a reliable framework for experimenting with other models.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{imgs/one-class_svm_roc_curve.png}
+    \caption{SVM ROC Curve}
+    \label{fig:svm_roc}
+\end{figure}
+
+The confusion matrix shown in Figure~\ref{fig:svm_confuse} illustrates that the SVM model tended to classify most samples as clean. This behavior suggests that the SVM was not able to effectively learn the distinguishing features of poisoned data. Although I made adjustments and attempted to improve the model, the results were disappointing.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{imgs/one-class_svm_confusion_matrix.png}
+    \caption{SVM Confusion Matrix}
+    \label{fig:svm_confuse}
+\end{figure}
+
+\subsection{Experiment 2: GAN}
+
+Moving from SVMs, I decided to experiment with GANs for anomaly detection. The goal was to explore how well GANs could identify poisoned data by leveraging their adversarial training process.
+
+\paragraph{Tasks \& Procedures}
+
+The GAN setup involved creating both a generator and a discriminator using PyTorch. The generator was tasked with generating fake data that resembled clean data, while the discriminator learned to distinguish between real and generated data. I experimented with various architectures and hyperparameters to optimize the performance of the model. GANs are known to be difficult to train, and I encountered several challenges along the way, such as formatting the inputs correctly and ensuring that the generator and discriminator were balanced in terms of learning.
+
+\paragraph{Results}
+
+Although the GAN model showed small improvements over the SVM, the results were still subpar. Figure~\ref{fig:gan_roc} illustrates the ROC curve for the GAN model, which, like the SVM, did not achieve significant success in detecting poisoned data. Despite tweaking the model and adjusting parameters, the performance remained underwhelming.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{imgs/gan_roc_curve.png}
+    \caption{GAN ROC Curve}
+    \label{fig:gan_roc}
+\end{figure}
+
+The confusion matrix in Figure~\ref{fig:gan_confuse} further highlights the GAN’s struggle in effectively distinguishing between clean and poisoned data. Like the SVM, the GAN model appeared biased toward the majority class, resulting in poor detection of poisoned samples.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{imgs/gan_confusion_matrix.png}
+    \caption{GAN Confusion Matrix}
+    \label{fig:gan_confuse}
+\end{figure}
+
+\subsection{Experiment 3: LSGAN}
+
+In an effort to improve the GAN's performance, I experimented with Least Squares GAN (LSGAN) loss. The goal was to stabilize the training process and reduce issues like mode collapse, which can hamper the generator’s ability to produce diverse and realistic data.
+
+\paragraph{Tasks \& Procedures}
+
+This experiment was straightforward; I replaced the standard GAN loss with LSGAN loss to see if it improved performance. The adjustment was relatively simple but required some reconfiguration of the loss function and the way the discriminator was trained.
+
+\paragraph{Results}
+
+Unfortunately, despite implementing LSGAN, I did not observe significant improvements in the GAN’s ability to detect poisoned data. The performance remained relatively consistent with the previous GAN setup, indicating that further adjustments were needed. However, this experiment was still valuable in demonstrating the potential of LSGAN for stabilizing training in some GAN architectures.
+
+\subsection{Experiment 4: Hyperparameter tuning}
+
+Recognizing the challenges with both the SVM and GAN approaches, I spent additional time focusing on hyperparameter tuning. This experiment aimed to optimize various aspects of the model’s training process to improve performance.
+
+\paragraph{Tasks \& Procedures}
+
+I implemented a learning rate scheduler to adjust the learning rate during training and incorporated early stopping to prevent overfitting. Additionally, I added save/load mechanics to facilitate the training process and allow for easier experimentation with different configurations.
+
+\paragraph{Results}
+
+Although these optimizations improved the efficiency of the training process, they did not result in significant improvements in performance. Despite these efforts, the models still performed poorly in comparison to baseline models. I also compared the results to common baselines to assess whether any meaningful gains were achieved.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{imgs/most_common_class_confusion_matrix.png}
+    \caption{Most Common Class Baseline Confusion Matrix}
+    \label{fig:most_common_confuse}
+\end{figure}
+
+The most common class baseline serves as a simple reference point, where the model always predicts the most frequent class. As shown in Figure~\ref{fig:most_common_roc}, the baseline model had a relatively high accuracy, which highlighted the difficulty of improving upon this simple approach.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{imgs/most_common_class_roc_curve.png}
+    \caption{Most Common class ROC Curve}
+    \label{fig:most_common_roc}
+\end{figure}
+
+\subsection{Further Baseline Comparisons}
+
+In addition to the most common class baseline, I also compared my models to random and dummy baselines. The random baseline represents predictions made without regard for any input data, while the dummy baseline makes predictions based on simple heuristics. These comparisons provided further insight into the performance of my models.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{imgs/random_baseline_confusion_matrix.png}
+    \caption{Random Baseline Confusion Matrix}
+    \label{fig:random_confuse}
+\end{figure}
+
+The random baseline confusion matrix, as shown in Figure~\ref{fig:random_roc}, represents the performance of a model that makes predictions purely by chance.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{imgs/random_baseline_roc_curve.png}
+    \caption{Random Baseline ROC Curve}
+    \label{fig:random_roc}
+\end{figure}
+
+Similarly, the dummy baseline comparison shows how simple heuristics can sometimes outperform complex models.
+
+\section{Implications}
+
+The ability to detect anomalies, such as poisoned data, is crucial in many real-world applications, particularly those that rely heavily on machine learning systems. For instance, in cybersecurity, detecting poisoned data can help prevent malicious attacks that attempt to compromise machine learning models. By improving the ability to detect poisoned data using GANs or other advanced techniques, we can better secure these systems against adversarial manipulation.
+
+In fields like healthcare and autonomous vehicles, where data integrity is vital for safety and decision-making, the detection of poisoned data becomes even more critical. Poisoned inputs can lead to incorrect predictions and potentially disastrous outcomes. The research in this paper highlights the challenges of detecting poisoned data and suggests that further work is needed to improve model robustness and accuracy.
+
+\section{Future Research \& Work}
+
+Future work should focus on improving the performance of models for detecting poisoned data. This could involve exploring more advanced anomaly detection methods, such as semi-supervised learning or unsupervised learning techniques. Additionally, experimenting with different architectures, loss functions, and optimization strategies could help improve the accuracy and efficiency of the models. The integration of data augmentation strategies, such as adversarial training, could also enhance the robustness of these models against poisoned data.
+
+\section{Conclusion}
+
+This study investigates the challenges of detecting poisoned data in machine learning models, using GANs, SVMs, and baseline models for comparison. While the experiments provided valuable insights, the results highlight the need for further advancements in anomaly detection methods. By refining the models and exploring new approaches, future research could lead to more effective systems for detecting and mitigating poisoned data in a variety of applications.
+
+\nocite{jabbar2021survey}
+\nocite{geiping2024datapoisoning}
+
+\bibliography{custom}
+\bibliographystyle{acl_natbib}
+
+\end{document}

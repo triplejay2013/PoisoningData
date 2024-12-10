@@ -1,5000 +1,5500 @@
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
-IDK: good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+good
+bad
+good
+good
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+good
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+good
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+good
+bad
+bad
+good
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+good
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
+bad
